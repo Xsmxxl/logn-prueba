@@ -10,7 +10,7 @@ firebase.auth().onAuthStateChanged(function(user) {
 
       var email_id = user.email;
       document.getElementById("user_para").innerHTML = "Bienvenido : " + email_id +" a este pequeño proyecto :D";
-      setTimeout ("logout(), redireccionar()", 2500);
+      //setTimeout ("logout(), redireccionar()", 2500);
 
     }
   } else {

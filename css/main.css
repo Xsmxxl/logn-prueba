@@ -1,5 +1,6 @@
 body{
     background-image: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/login-background-image-5.png");
+    background-repeat: no-repeat;
 }
 
 form {
@@ -7,23 +8,58 @@ form {
     margin-top: 0em;
 }
 
-.log{
-    position: absolute;
-    left: calc(45% - 50px);
-    top: calc(45% - 50px);
-}
-.mensaje{
-    position: absolute;
-    left: calc(40% - 130px);
-    top: calc(65% - 150px);
-    color: rgba(255, 255, 255, 1);
-    z-index: 2;
-}
+@media (min-width: 319px) and (max-width: 768px){
+    .log{
+        position: absolute;
+        left: calc(45% - 65px);
+        right: calc(45% - 65px);
+        top: calc(45% - 25px);
+        bottom: calc(55% - 25px);
+    }
+    .mensaje{
+        position: absolute;
+        left: calc(40% - 130px);
+        right: calc(40% - 130px);
+        top: calc(65% - 150px);
+        color: rgba(255, 255, 255, 1);
+        z-index: 2;
+    }
 
-.logoBioS{
-    position: absolute;
-    width: 175px;
-    left: calc(55% - 175px);
-    top: calc(30%);
-    z-index: 1;
+    .logoBioS{
+        position: absolute;
+        width: 176px;
+        height: auto;
+        left: calc(50% - 88px);
+        right: calc(50% - 88px);
+        top: calc(30% - 25px);
+        bottom: calc(70% - 25px);
+        z-index: 1;
+    }
+}@media (min-width: 769px){
+    .log{
+        position: absolute;
+        left: calc(45% - 130px);
+        right: calc(45% - 130px);
+        top: calc(45% - 50px);
+        bottom: calc(55% - 50px);
+    }
+    .mensaje{
+        position: absolute;
+        left: calc(40% - 130px);
+        right: calc(40% - 130px);
+        top: calc(65% - 150px);
+        color: rgba(255, 255, 255, 1);
+        z-index: 2;
+    }
+
+    .logoBioS{
+        position: absolute;
+        width: 176px;
+        height: auto;
+        left: calc(50% - 88px);
+        right: calc(50% - 88px);
+        top: calc(30% - 50px);
+        bottom: calc(70% - 50px);
+        z-index: 1;
+    }
 }
