@@ -1,0 +1,29 @@
+body{
+    background-image: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/login-background-image-5.png");
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.log{
+    position: absolute;
+    left: calc(45% - 50px);
+    top: calc(45% - 50px);
+}
+.mensaje{
+    position: absolute;
+    left: calc(40% - 130px);
+    top: calc(65% - 150px);
+    color: rgba(255, 255, 255, 1);
+    z-index: 2;
+}
+
+.logoBioS{
+    position: absolute;
+    width: 175px;
+    left: calc(55% - 175px);
+    top: calc(30%);
+    z-index: 1;
+}
