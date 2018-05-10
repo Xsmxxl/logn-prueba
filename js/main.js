@@ -41,6 +41,6 @@ function logout(){
 
 function redireccionar(){
     //window.locationf="https://xsmxxl.github.io/responsive-pag-001/";
-    var urlR = "https://xsmxxl.github.io/responsive-pag-001/";
+    var urlR = "https://xsmxxl.github.io/adminbios/";
     $(location).attr('href',urlR);
 }

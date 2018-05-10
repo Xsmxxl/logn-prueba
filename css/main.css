@@ -52,7 +52,7 @@ form {
         z-index: 2;
     }
 
-    .logoBioS{
+    .logBioS{
         position: absolute;
         width: 176px;
         height: auto;
@@ -62,4 +62,3 @@ form {
         bottom: calc(70% - 50px);
         z-index: 1;
     }
-}
